@@ -11,7 +11,7 @@ module.exports = {
         "accessor-pairs": "error",
         "array-bracket-spacing": "error",
         "array-callback-return": "error",
-        "arrow-body-style": "error",
+        "arrow-body-style": ["error", "always"],
         "arrow-parens": "error",
         "arrow-spacing": "error",
         "block-scoped-var": "error",
@@ -39,7 +39,7 @@ module.exports = {
         "eqeqeq": "error",
         "func-call-spacing": "error",
         "func-name-matching": "error",
-        "func-names": "error",
+        "func-names":["error", "as-needed"],
         "func-style": [
             "error",
             "declaration"
